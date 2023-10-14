@@ -8,8 +8,8 @@
     <link href="{{asset('frontend/plugins/revolution/css/navigation.css')}}" rel="stylesheet" type="text/css"><!-- REVOLUTION NAVIGATION STYLES -->
     <link href="{{asset('frontend/css/style.css')}}" rel="stylesheet">
 
-    <link rel="shortcut icon" href="{{asset('frontend/images/favicon.png')}}" type="image/x-icon">
-    <link rel="icon" href="{{asset('frontend/images/favicon.png')}}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{asset('frontend/images/logo-loading.png')}}" type="image/x-icon">
+    <link rel="icon" href="{{asset('frontend/images/logo-loading.png')}}" type="image/x-icon">
 
     <!-- Responsive -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">

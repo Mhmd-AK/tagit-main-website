@@ -44,7 +44,7 @@ License: copyright commercial
 :root {
   --theme-color-light: #ffffff;
   --theme-color-dark: #18191c;
-  --theme-color1: #fec63f;
+  --theme-color1: #e2710c;
   --bg-theme-color1: var(--theme-color1);
   --theme-color2: #18191c;
   --bg-theme-color2: var(--theme-color2);
@@ -731,7 +731,7 @@ li {
   background-repeat: no-repeat;
   -webkit-animation: pulse 1s infinite linear;
           animation: pulse 1s infinite linear;
-  background-image: url(../images/favicon.png);
+  background-image: url(../images/logo-loading.png);
   content: "";
 }
 
