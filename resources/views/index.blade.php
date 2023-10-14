@@ -37,10 +37,10 @@
                 <!-- Main box -->
                 <div class="main-box">
                     <div class="logo-box">
-                        <div class="logo"><a href="index.html"><img src="{{asset('frontend/images/logo.png')}}" alt="" title="Tronis"></a></div>
+                        <div class="logo"><a href="index.html"><img src="{{asset('frontend/images/Tagit-logo.png')}}" alt="" title="Tronis"></a></div>
                     </div>
 
-
+                    
                     <!--Nav Box-->
                     <div class="nav-outer">
                         <nav class="nav main-menu">
@@ -156,7 +156,7 @@
                 <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
                 <nav class="menu-box">
                     <div class="upper-box">
-                        <div class="nav-logo"><a href="index.html"><img src="{{asset('frontend/images/logo.png')}}" alt="" title=""></a></div>
+                        <div class="nav-logo"><a href="index.html"><img src="{{asset('frontend/images/logo-loading.png')}}" alt="" title=""></a></div>
                         <div class="close-btn"><i class="icon fa fa-times"></i></div>
                     </div>
 
@@ -222,7 +222,7 @@
                     <div class="inner-container">
                         <!--Logo-->
                         <div class="logo">
-                            <a href="index.html" title=""><img src="{{asset('frontend/images/logo-2.png')}}" alt="" title=""></a>
+                            <a href="index.html" title=""><img src="{{asset('frontend/images/Tagit-logo.png')}}" alt="" title=""></a>
                         </div>
 
                         <!--Right Col-->
@@ -1053,7 +1053,7 @@
                         <div class="footer-column col-xl-5 col-lg-4 col-md-12">
                             <div class="footer-widget about-widget">
                                 <div class="widget-content">
-                                    <div class="logo"><a href="#"> <img src="{{asset('frontend/images/logo.png')}}" alt=""></a></div>
+                                    <div class="logo"><a href="#"> <img src="{{asset('frontend/images/Tagit-logo.png')}}" alt=""></a></div>
                                     <div class="text">Welcome to our digital agency. Lorem ipsum simply free text dolor sited amet cons cing elit.</div>
                                     <ul class="social-icon-two">
                                         <li><a href="#"><i class="fab fa-twitter"></i></a></li>
