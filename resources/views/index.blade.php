@@ -1022,7 +1022,7 @@
                             <div class="inner">
                                 <i class="icon fa fa-phone-square"></i>
                                 <span class="sub-title">Call Anytime</span>
-                                <div class="text"><a href="tel:+92(8800)48720">+92 (8800) -89 8630</a></div>
+                                <div class="text"><a href="tel:+92(8800)48720">+961 01 614 141</a></div>
                             </div>
                         </div>
                         <!-- Contact info Block -->
@@ -1030,15 +1030,15 @@
                             <div class="inner">
                                 <i class="icon fa fa-envelope"></i>
                                 <span class="sub-title">Send Email</span>
-                                <div class="text"><a href="mailto:needhelp@company.com">needhelp@company.com</a></div>
+                                <div class="text"><a href="mailto:needhelp@company.com">info@tagit-global.com</a></div>
                             </div>
                         </div>
                         <!-- Contact info Block -->
                         <div class="contact-info-block col-lg-4 col-md-6">
                             <div class="inner">
                                 <i class="icon fa fa-map-marker"></i>
-                                <span class="sub-title">Addres</span>
-                                <div class="text">30 Broklyn Golden Street. USA</div>
+                                <span class="sub-title">Address</span>
+                                <div class="text">Achrafieh, Beirut, Lebanon</div>
                             </div>
                         </div>
                     </div>
@@ -1111,7 +1111,7 @@
             <!--  Footer Bottom -->
             <div class="footer-bottom">
                 <div class="auto-container">
-                    <div class="copyright-text">© Copyright 2023 by <a href="#">Company.com</a></div>
+                    <div class="copyright-text">© Copyright 2023 by <a href="#">Tagit-Global.com</a></div>
                 </div>
             </div>
         </footer>
