@@ -11,8 +11,8 @@
                     <div class="top-left">
                         <!-- Info List -->
                         <ul class="list-style-one">
-                            <li><i class="fa fa-envelope"></i> <a href="mailto:needhelp@company.com">needhelp@company.com</a></li>
-                            <li><i class="fa fa-map-marker"></i> 88 Broklyn Golden Street. New York</li>
+                            <li><i class="fa fa-envelope"></i> <a href="mailto:info@tagit-global.com">info@tagit-global.com</a></li>
+                            <li><i class="fa fa-map-marker"></i> Achrafieh, Beirut, Lebanon</li>
                         </ul>
                     </div>
 
@@ -141,7 +141,7 @@
                         <a href="tel:+92(8800)9806" class="info-btn">
                             <i class="icon lnr-icon-phone-handset"></i>
                             <small>Call Anytime</small>
-                            +92 (8800) - 9850
+                            +961 01 614 141
                         </a>
                         <!-- Mobile Nav toggler -->
                         <div class="mobile-nav-toggler"><span class="icon lnr-icon-bars"></span></div>
@@ -253,7 +253,7 @@
                         <!-- Slide 1 -->
                         <li data-index="rs-1" data-transition="zoomout">
                             <!-- MAIN IMAGE -->
-                            <img src="{{asset('frontend/images/main-slider/1.jpg')}}" alt="" class="rev-slidebg">
+                            <img src="{{asset('frontend/images/main-slider/cover photo.webp')}}" alt="" class="rev-slidebg">
 
                             <div class="tp-caption"
                                  data-paddingbottom="[15,15,15,15]"
@@ -319,7 +319,7 @@
                     <div class="service-block col-lg-3 col-md-6 coll-md-12 wow fadeInUp">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><img src="{{asset('frontend/images/resource/service-1.jpg')}}" alt=""></figure>
+                                <figure class="image"><img src="{{asset('frontend/images/resource/service-1.webp')}}" alt=""></figure>
                             </div>
                             <div class="content-box">
                                 <i class="icon flaticon-web-development"></i>
@@ -337,7 +337,7 @@
                     <div class="service-block col-lg-3 col-md-6 coll-md-12 wow fadeInUp">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><img src="{{asset('frontend/images/resource/service-2.jpg')}}" alt=""></figure>
+                                <figure class="image"><img src="{{asset('frontend/images/resource/service-2.webp')}}" alt=""></figure>
                             </div>
                             <div class="content-box">
                                 <i class="icon flaticon-design"></i>
@@ -355,7 +355,7 @@
                     <div class="service-block col-lg-3 col-md-6 coll-md-12 wow fadeInUp">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><img src="{{asset('frontend/images/resource/service-3.jpg')}}" alt=""></figure>
+                                <figure class="image"><img src="{{asset('frontend/images/resource/service-3.webp')}}" alt=""></figure>
                             </div>
                             <div class="content-box">
                                 <i class="icon flaticon-megaphone"></i>
@@ -373,7 +373,7 @@
                     <div class="service-block col-lg-3 col-md-6 coll-md-12 wow fadeInUp">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><img src="{{asset('frontend/images/resource/service-4.jpg')}}" alt=""></figure>
+                                <figure class="image"><img src="{{asset('frontend/images/resource/service-4.webp')}}" alt=""></figure>
                             </div>
                             <div class="content-box">
                                 <i class="icon flaticon-visitor"></i>
