@@ -169,7 +169,7 @@
                             <div class="contact-info-box">
                                 <i class="icon lnr-icon-phone-handset"></i>
                                 <span class="title">Call Now</span>
-                                <a href="tel:+92880098670">+92 (8800) - 98670</a>
+                                <a href="tel:+92880098670">+961 01 614 141</a>
                             </div>
                         </li>
                         <li>
@@ -177,7 +177,7 @@
                             <div class="contact-info-box">
                                 <span class="icon lnr-icon-envelope1"></span>
                                 <span class="title">Send Email</span>
-                                <a href="mailto:help@company.com">help@company.com</a>
+                                <a href="mailto:help@company.com">info@tagit-global.com</a>
                             </div>
                         </li>
                         <li>
@@ -185,7 +185,7 @@
                             <div class="contact-info-box">
                                 <span class="icon lnr-icon-clock"></span>
                                 <span class="title">Send Email</span>
-                                Mon - Sat 8:00 - 6:30, Sunday - CLOSED
+                                Sun - Thu 8:00 - 5:00, Saturday/Friday - CLOSED
                             </div>
                         </li>
                     </ul>
@@ -1022,7 +1022,7 @@
                             <div class="inner">
                                 <i class="icon fa fa-phone-square"></i>
                                 <span class="sub-title">Call Anytime</span>
-                                <div class="text"><a href="tel:+92(8800)48720">+961 01 614 141</a></div>
+                                <div class="text"><a href="tel:+961 01 614 141">+961 01 614 141</a></div>
                             </div>
                         </div>
                         <!-- Contact info Block -->
@@ -1030,7 +1030,7 @@
                             <div class="inner">
                                 <i class="icon fa fa-envelope"></i>
                                 <span class="sub-title">Send Email</span>
-                                <div class="text"><a href="mailto:needhelp@company.com">info@tagit-global.com</a></div>
+                                <div class="text"><a href="mailto:info@tagit-global.com">info@tagit-global.com</a></div>
                             </div>
                         </div>
                         <!-- Contact info Block -->
