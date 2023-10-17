@@ -8,7 +8,7 @@ License: copyright commercial
 2. Reset
 3. Global Settings
 4. Main Header / TwO
-5. Sticky Header 
+5. Sticky Header
 6. Mobile Menu
 7. Section Title
 8. Main Slider
@@ -22,7 +22,7 @@ License: copyright commercial
 16.  Marquee Section
 17. Fun Fact Section
 18. Testimonial Section / Two
-19. team Section 
+19. team Section
 20, Contact Section / Two
 21. Why Choose Us / Two
 22. News Section / Two
@@ -599,7 +599,7 @@ textarea.form-control {
   border-right: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-/*** 
+/***
 
 ====================================================================
 Reset
@@ -614,7 +614,7 @@ Reset
   font-size: 100%;
 }
 
-/*** 
+/***
 
 ====================================================================
 Global Settings
@@ -1364,7 +1364,7 @@ Scroll To Top style
 }
 
 /*======================
-    Media Play Button 
+    Media Play Button
 ======================*/
 .play-now {
   position: relative;
@@ -1941,7 +1941,7 @@ Scroll To Top style
   font-size: 10px;
 }
 
-/*** 
+/***
 
 ====================================================================
   Anim Icons
@@ -2292,7 +2292,7 @@ Scroll To Top style
   }
 }
 
-/*** 
+/***
 
 ====================================================================
   Search Popup
@@ -2430,7 +2430,7 @@ Scroll To Top style
           transition-delay: 500ms;
 }
 
-/*** 
+/***
 
 ====================================================================
 Main Header
@@ -2904,7 +2904,7 @@ Main Header
   color: var(--theme-color-light);
 }
 
-/*** 
+/***
 
 ====================================================================
 Header Style One
@@ -3005,7 +3005,7 @@ Header Style One
   }
 }
 
-/*** 
+/***
 
 ====================================================================
     Header Style Two
@@ -3097,7 +3097,7 @@ Header Style One
   }
 }
 
-/*** 
+/***
 
 ====================================================================
 Sticky Header
@@ -3179,7 +3179,7 @@ Sticky Header
     opacity: 0;
   }
 }
-/*** 
+/***
 
 ====================================================================
       Mobile Menu
@@ -3464,7 +3464,7 @@ Sticky Header
   color: var(--theme-color2);
 }
 
-/*** 
+/***
 
 ====================================================================
 Section Title
@@ -3568,7 +3568,7 @@ Section Title
   margin-left: -15px;
 }
 
-/*** 
+/***
 
 ====================================================================
   Main Slider
@@ -3652,7 +3652,7 @@ Section Title
   }
 }
 
-/*** 
+/***
 
 ====================================================================
     Banner Section
@@ -4199,7 +4199,7 @@ Section Title
   transition: all 300ms ease;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Features Section Three
@@ -4607,7 +4607,7 @@ Section Title
           animation: fa-spin 30s infinite linear;
 }
 
-/*** 
+/***
 
 ====================================================================
 		About Section
@@ -4847,7 +4847,7 @@ Section Title
   font-weight: 600;
 }
 
-/*** 
+/***
 
 ====================================================================
 		About Section Two
@@ -5013,7 +5013,7 @@ Section Title
   margin-bottom: 0;
 }
 
-/*** 
+/***
 
 ====================================================================
     Services Section
@@ -5236,7 +5236,7 @@ Section Title
   transition: all 300ms ease;
 }
 
-/*** 
+/***
 
 ====================================================================
     Services Section Two
@@ -5340,7 +5340,7 @@ Section Title
   color: #75767a;
 }
 
-/*** 
+/***
 
 ====================================================================
 		Call To Action
@@ -5415,7 +5415,7 @@ Section Title
   content: "";
 }
 
-/*** 
+/***
 
 ====================================================================
 		Call To Action Two
@@ -5568,7 +5568,7 @@ Section Title
   background-color: var(--theme-color1);
 }
 
-/*** 
+/***
 
 ====================================================================
 		FAQ's Sectiom
@@ -5868,7 +5868,7 @@ Section Title
   }
 }
 
-/*** 
+/***
 
 ====================================================================
     Fun Fact Section
@@ -5985,7 +5985,7 @@ Section Title
   transition: all 300ms ease;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Testimonial Section
@@ -6190,7 +6190,7 @@ Section Title
   margin-bottom: 0;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Testimonial Section Two
@@ -6476,7 +6476,7 @@ Section Title
   color: var(--theme-color2);
 }
 
-/*** 
+/***
 
 ====================================================================
     Contact Section
@@ -6625,7 +6625,7 @@ Section Title
   }
 }
 
-/*** 
+/***
 
 ====================================================================
     Contact Section Two
@@ -7059,7 +7059,7 @@ Section Title
   }
 }
 
-/*** 
+/***
 
 ====================================================================
     News Section
@@ -7218,7 +7218,7 @@ Section Title
   border-radius: 50%;
 }
 
-/*** 
+/***
 
 ====================================================================
     Video Section
@@ -7321,7 +7321,7 @@ Section Title
   font-size: 20px;
 }
 
-/*** 
+/***
 
 ====================================================================
     Home Layout 3 Styles
@@ -9861,7 +9861,7 @@ Section Title
   }
 }
 
-/*** 
+/***
 
 ====================================================================
     Map Section
@@ -9883,7 +9883,7 @@ Section Title
           filter: grayscale(100%);
 }
 
-/*** 
+/***
 
 ====================================================================
     Clients Section
@@ -11852,7 +11852,7 @@ table.tbl-shopping-cart > tfoot > tr > th {
   background-color: var(--theme-color2);
 }
 
-/*** 
+/***
 
 ====================================================================
 Page Title
@@ -13283,7 +13283,7 @@ Page Title
   background-color: var(--theme-color1);
 }
 
-/*** 
+/***
 
 ====================================================================
 Sidebar
@@ -13661,7 +13661,7 @@ Sidebar
   letter-spacing: 0;
 }
 
-/*** 
+/***
 
 ====================================================================
     Comments
@@ -14083,7 +14083,7 @@ Sidebar
 }
 .contact-info-block .inner {
   position: relative;
-  padding-left: 40px;
+  /*padding-left: 40px;*/
 }
 .contact-info-block .inner:before {
   position: absolute;
@@ -14110,7 +14110,7 @@ Sidebar
 }
 @media (max-width: 575.98px) {
   .contact-info-block .inner .icon {
-    position: relative;
+    /*position: relative;*/
     display: inline-block;
     margin-bottom: 20px;
   }
@@ -14123,7 +14123,7 @@ Sidebar
   display: block;
 }
 .contact-info-block .inner .text {
-  font-size: 18px;
+  font-size: 17px;
   color: #fff;
   line-height: 24px;
   display: -webkit-box;
