@@ -835,13 +835,14 @@
         </section>
         <!--End projects-section-->
 
-        <!-- Fun Fact Section -->
+        <!-- Statistics Counter Comment Out --
+        <!- Fun Fact Section --
         <section class="fun-fact-section pull-up">
             <div class="bg bg-pattern-3"></div>
             <div class="auto-container">
                 <div class="fact-counter">
                     <div class="row">
-                        <!-- Counter block-->
+                        <!- Counter block--
                         <div class="counter-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp">
                             <div class="inner">
                                 <div class="icon-box"><i class="flaticon-completed-task"></i></div>
@@ -850,7 +851,7 @@
                             </div>
                         </div>
 
-                        <!--Counter block-->
+                        <!- Counter block--
                         <div class="counter-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="300ms">
                             <div class="inner">
                                 <div class="icon-box"><i class="flaticon-settings"></i></div>
@@ -859,7 +860,7 @@
                             </div>
                         </div>
 
-                        <!--Counter block-->
+                        <!- Counter block--
                         <div class="counter-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="600ms">
                             <div class="inner">
                                 <div class="icon-box"><i class="flaticon-rating"></i></div>
@@ -868,7 +869,7 @@
                             </div>
                         </div>
 
-                        <!--Counter block-->
+                        <!- Counter block--
                         <div class="counter-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="900ms">
                             <div class="inner">
                                 <div class="icon-box"><i class="flaticon-group"></i></div>
@@ -880,7 +881,8 @@
                 </div>
             </div>
         </section>
-        <!-- End Fun Fact Section -->
+        !-- End Fun Fact Section -->
+        <!-- Statistics Counter Comment Out -->
 
         <!-- News Section Two -->
         <section class="news-section">
@@ -992,12 +994,13 @@
         </section>
         <!-- End Contact Section -->
 
-        <!-- Clients Section -->
+        <!-- Sister Companies Comment Out --
+        !-- Clients Section --
         <section class="clients-section pull-up">
             <div class="auto-container">
-                <!-- Sponsors Outer -->
+                <!- Sponsors Outer --
                 <div class="sponsors-outer">
-                    <!--clients carousel-->
+                    <!=clients carousel--
                     <ul class="clients-carousel owl-carousel owl-theme">
                         <li class="client-block"> <a href="#"><img src="{{asset('frontend/images/clients/1.png')}}" alt=""></a> </li>
                         <li class="client-block"> <a href="#"><img src="{{asset('frontend/images/clients/1.png')}}" alt=""></a> </li>
@@ -1008,7 +1011,10 @@
                 </div>
             </div>
         </section>
-        <!--End Clients Section -->
+        <!-End Clients Section -->
+        <!-- Sister Companies Comment Out -->
+
+        <br>
 
         <!-- Main Footer -->
         <footer class="main-footer">
