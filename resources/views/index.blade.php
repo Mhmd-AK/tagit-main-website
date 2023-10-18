@@ -38,8 +38,9 @@
             <!-- Main box -->
             <div class="main-box">
                 <div class="logo-box">
-                    <div class="logo"><a href="index.html"><img src="{{asset('frontend/images/Tagit-logo.png')}}" alt=""
-                                                                title="Tronis"></a></div>
+                    <div class="logo"><a href="{{route('index')}}">
+                            <img src="{{asset('frontend/images/Tagit-logo.png')}}" alt="tagit" title="tagit"></a>
+                    </div>
                 </div>
 
 
@@ -47,88 +48,12 @@
                 <div class="nav-outer">
                     <nav class="nav main-menu">
                         <ul class="navigation">
-                            <li class="current dropdown"><a href="index.html">Home</a>
-                                <ul>
-                                    <li><a href="index.html">Home page 01</a></li>
-                                    <li><a href="index-2.html">Home page 02</a></li>
-                                    <li class="dropdown"><a href="#">More Home</a>
-                                        <ul>
-                                            <li><a href="index-3.html">Home page 03</a></li>
-                                            <li><a href="index-4.html">Home page 04</a></li>
-                                            <li><a href="index-5.html">Home page 05</a></li>
-                                            <li><a href="index-6.html">Home page 06</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown"><a href="#">Dark Styles</a>
-                                        <ul>
-                                            <li><a href="index-1-dark.html">Home Dark One</a></li>
-                                            <li><a href="index-2-dark.html">Home Dark Two</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown"><a href="#">Boxed Styles</a>
-                                        <ul>
-                                            <li><a href="index-1-boxed.html">Home Boxed One</a></li>
-                                            <li><a href="index-2-boxed.html">Home Boxed Two</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown"><a href="#">Single Styles</a>
-                                        <ul>
-                                            <li><a href="index-1-Single.html">Home Single One</a></li>
-                                            <li><a href="index-2-Single.html">Home Single Two</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="index-1-rtl.html">Home RTL One</a></li>
-                                    <li class="dropdown"><a href="#">Header Styles</a>
-                                        <ul>
-                                            <li><a href="index.html">Header Style One</a></li>
-                                            <li><a href="index-2.html">Header Style Two</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="dropdown"><a href="page-about.html">Pages</a>
-                                <ul>
-                                    <li><a href="page-about.html">About</a></li>
-                                    <li class="dropdown"><a href="page-team.html">Team</a>
-                                        <ul>
-                                            <li><a href="page-team.html">Team Grid</a></li>
-                                            <li><a href="page-team-details.html">Team Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown"><a href="shop-products.html">Shop</a>
-                                        <ul>
-                                            <li><a href="shop-products.html">Products</a></li>
-                                            <li><a href="shop-products-sidebar.html">Products with Sidebar</a></li>
-                                            <li><a href="shop-product-details.html">Product Details</a></li>
-                                            <li><a href="shop-cart.html">Cart</a></li>
-                                            <li><a href="shop-checkout.html">Checkout</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="page-testimonial.html">Testimonial</a></li>
-                                    <li><a href="page-pricing.html">Pricing</a></li>
-                                    <li><a href="page-faq.html">FAQ</a></li>
-                                    <li><a href="page-404.html">Page 404</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown"><a href="page-services.html">Services</a>
-                                <ul>
-                                    <li><a href="page-services.html">Services Grid</a></li>
-                                    <li><a href="page-service-details.html">Service Details</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown"><a href="page-projects.html">Projects</a>
-                                <ul>
-                                    <li><a href="page-projects.html">Projects Grid</a></li>
-                                    <li><a href="page-project-details.html">Project Details</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown"><a href="news-grid.html">News</a>
-                                <ul>
-                                    <li><a href="news-grid.html">News Grid</a></li>
-                                    <li><a href="news-details.html">News Details</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="page-contact.html">Contact</a></li>
+                            <li><a href="#slider-header">Home Page</a></li>
+                            <li><a href="#services-section">Our Services</a></li>
+                            <li><a href="#about-section">About Us</a></li>
+                            <li><a href="#why-choose-us">Why Choose Us</a></li>
+                            <li><a href="#projects-section">Our Projects</a></li>
+                            <li><a href="#contact-section">Contact Us</a></li>
                         </ul>
                     </nav>
                     <!-- Main Menu End-->
@@ -158,7 +83,7 @@
             <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
             <nav class="menu-box">
                 <div class="upper-box">
-                    <div class="nav-logo"><a href="index.html"><img src="{{asset('frontend/images/logo-loading.png')}}"
+                    <div class="nav-logo"><a href="{{route('index')}}"><img src="{{asset('frontend/images/logo-loading.png')}}"
                                                                     alt="" title=""></a></div>
                     <div class="close-btn"><i class="icon fa fa-times"></i></div>
                 </div>
@@ -187,7 +112,7 @@
                         <!-- Contact Info Box -->
                         <div class="contact-info-box">
                             <span class="icon lnr-icon-clock"></span>
-                            <span class="title">Send Email</span>
+                            <span class="title">Working Hours</span>
                             Sun - Thu 8:00 - 5:00, Saturday/Friday - CLOSED
                         </div>
                     </li>
@@ -211,7 +136,7 @@
             <button class="close-search"><span class="fa fa-times"></span></button>
 
             <div class="search-inner">
-                <form method="post" action="index.html">
+                <form method="post" action="{{route('index')}}">
                     <div class="form-group">
                         <input type="search" name="search-field" value="" placeholder="Search..." required="">
                         <button type="submit"><i class="fa fa-search"></i></button>
@@ -227,7 +152,7 @@
                 <div class="inner-container">
                     <!--Logo-->
                     <div class="logo">
-                        <a href="index.html" title=""><img src="{{asset('frontend/images/Tagit-logo.png')}}" alt=""
+                        <a href="{{route('index')}}" title=""><img src="{{asset('frontend/images/Tagit-logo.png')}}" alt=""
                                                            title=""></a>
                     </div>
 
@@ -252,7 +177,7 @@
     <!--End Main Header -->
 
     <!--Main Slider-->
-    <section class="main-slider">
+    <section id="slider-header" class="main-slider">
         <div class="rev_slider_wrapper fullwidthbanner-container" id="rev_slider_one_wrapper" data-source="gallery">
             <div class="rev_slider fullwidthabanner" id="rev_slider_one" data-version="5.4.1">
                 <ul>
@@ -308,7 +233,7 @@
     <!-- End Main Slider-->
 
     <!-- Services Section -->
-    <section class="services-section">
+    <section id="services-section" class="services-section">
         <div class="bg-shape"></div>
         <div class="bg bg-pattern-1"></div>
 
@@ -410,7 +335,7 @@
     <!--End services-section -->
 
     <!-- About Section -->
-    <section class="about-section pt-0 mb-4">
+    <section id="about-section" class="about-section pt-0 mb-4">
         <div class="auto-container">
             <div class="row">
                 <!-- Content Column -->
@@ -431,7 +356,7 @@
                         <!-- Info Box -->
                         <div class="info-box">
                             <div class="inner">
-                                <i class="icon flaticon-targeted-marketing"></i>
+                                <i class="icon fa-solid fa-eye"></i>
                                 <h5 class="title">VISION</h5>
                                 <div class="text">
                                     Elevating Saudi Arabia through cutting-edge advertising, creative marketing, and sophisticated design with innovative digital techniques and rapid execution.
@@ -441,7 +366,7 @@
 
                         <div class="info-box">
                             <div class="inner">
-                                <i class="icon flaticon-targeted-marketing"></i>
+                                <i class="icon fa-solid fa-wand-magic-sparkles"></i>
                                 <h5 class="title">VALUES</h5>
                                 <div class="text">
                                     Our passion inspires excellence, innovation, and success for projects and entrepreneurs, generating excitement and nurturing ideas.
@@ -451,7 +376,7 @@
 
                         <div class="info-box">
                             <div class="inner">
-                                <i class="icon flaticon-targeted-marketing"></i>
+                                <i class="icon fa-solid fa-bullseye"></i>
                                 <h5 class="title">MISSION</h5>
                                 <div class="text">
                                     Powering creativity and global impact through memorable Saudi campaigns and innovative solutions with ideas and technology.
@@ -462,7 +387,7 @@
                         <!-- Info Box -->
                         <div class="info-box">
                             <div class="inner">
-                                <i class="icon flaticon-diplomat"></i>
+                                <i class="icon fa-solid fa-lightbulb-on"></i>
                                 <h5 class="title">OURGOAL</h5>
                                 <div class="text">
                                     Uplifting marketing and design standards, fostering partner success, and pioneering new digital techniques for continuous excellence.
@@ -515,7 +440,7 @@
     <!-- End About Section -->
 
     <!-- Marquee Section -->
-    <div class="marquee-section">
+    <div id="marquee-section" class="marquee-section">
         <div class="marquee">
             <div class="marquee-group">
                 <div class="text">*Transofrm ideas into reality</div>
@@ -537,7 +462,7 @@
     <!-- End Marquee Section -->
 
     <!-- Call To Action -->
-    <section class="call-to-action">
+    <section id="call-to-action" class="call-to-action">
         {{-- here --}}
         <div class="bg bg-image" style="background-image: url(frontend/images/background/1.jpg)"></div>
         <div class="auto-container">
@@ -545,7 +470,7 @@
                 <figure class="small-image"><img src="{{asset('frontend/images/resource/img.jpg')}}" alt=""></figure>
                 <h2 class="title">Better digital marketing <span class="selected">solution</span> <br>and services at
                     your <br>fingertips</h2>
-                <a href="#" class="theme-btn btn-style-one light"><span
+                <a href="#contact-section" class="theme-btn btn-style-one light"><span
                         class="btn-title">Contact Us</span></a>
             </div>
         </div>
@@ -780,7 +705,7 @@
         !-- End Testimonial Section -->
 
     <!-- Why Choose Us -->
-    <section class="why-choose-us">
+    <section id="why-choose-us" class="why-choose-us">
         <div class="anim-icons">
             <span class="icon icon-arrow1"></span>
         </div>
@@ -846,7 +771,7 @@
     <!-- End Why Choose Us -->
 
     <!-- Projects Section -->
-    <section class="projects-section p-0">
+    <section id="projects-section" class="projects-section p-0">
         <div class="auto-container">
             <div class="sec-title text-center">
                 <span class="sub-title">our portfolio</span>
@@ -858,15 +783,15 @@
                     <div class=" project-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><a href="page-project-details.html"><img
+                                <figure class="image"><a href="#"><img
                                             src="{{asset('frontend/images/resource/project-1-test.png')}}" alt=""></a>
                                 </figure>
                             </div>
                             <div class="content-box">
-                                <a href="page-project-details.html" class="icon"><i
+                                <a href="#" class="icon"><i
                                         class="fa fa-long-arrow-alt-right"></i></a>
                                 <span class="cat">Development</span>
-                                <h4 class="title"><a href="page-project-details.html" title="">Marketing webdesign</a>
+                                <h4 class="title"><a href="#" title="">Marketing webdesign</a>
                                 </h4>
                             </div>
                         </div>
@@ -876,15 +801,15 @@
                     <div class=" project-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="600ms">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><a href="page-project-details.html"><img
+                                <figure class="image"><a href="#"><img
                                             src="{{asset('frontend/images/resource/project-3-test.jpg')}}" alt=""></a>
                                 </figure>
                             </div>
                             <div class="content-box">
-                                <a href="page-project-details.html" class="icon"><i
+                                <a href="#" class="icon"><i
                                         class="fa fa-long-arrow-alt-right"></i></a>
                                 <span class="cat">Development</span>
-                                <h4 class="title"><a href="page-project-details.html" title="">Marketing web design</a>
+                                <h4 class="title"><a href="#" title="">Marketing web design</a>
                                 </h4>
                             </div>
                         </div>
@@ -893,33 +818,33 @@
                     <div class=" project-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="300ms">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><a href="page-project-details.html"><img
+                                <figure class="image"><a href="#"><img
                                             src="{{asset('frontend/images/resource/project-2-test.jpg')}}" alt=""></a>
                                 </figure>
                             </div>
                             <div class="content-box">
-                                <a href="page-project-details.html" class="icon"><i
+                                <a href="#" class="icon"><i
                                         class="fa fa-long-arrow-alt-right"></i></a>
                                 <span class="cat">Development</span>
-                                <h4 class="title"><a href="page-project-details.html" title="">Marketing webdesign</a>
+                                <h4 class="title"><a href="#" title="">Marketing webdesign</a>
                                 </h4>
                             </div>
                         </div>
                     </div>
-                    
+
 
                     <div class=" project-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="900ms">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><a href="page-project-details.html"><img
+                                <figure class="image"><a href="#"><img
                                             src="{{asset('frontend/images/resource/project-4-test.jpg')}}" alt=""></a>
                                 </figure>
                             </div>
                             <div class="content-box">
-                                <a href="page-project-details.html" class="icon"><i
+                                <a href="#" class="icon"><i
                                         class="fa fa-long-arrow-alt-right"></i></a>
                                 <span class="cat">Development</span>
-                                <h4 class="title"><a href="page-project-details.html" title="">Marketing webdesign</a>
+                                <h4 class="title"><a href="#" title="">Marketing webdesign</a>
                                 </h4>
                             </div>
                         </div>
@@ -929,6 +854,48 @@
         </div>
     </section>
     <!--End projects-section-->
+    <section id="contact-section" class="contact-section">
+        <div class="anim-icons">
+            <span class="icon icon-line3"></span>
+            <span class="icon icon-arrow1"></span>
+            <span class="icon icon-arrow2"></span>
+        </div>
+        <div class="auto-container">
+            <div class="outer-box">
+                <div class="bg bg-pattern-5"></div>
+
+                <div class="sec-title">
+                    <span class="sub-title">Get in touch</span>
+                    <h2>Let’s work together</h2>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form wow fadeInLeft">
+                    <!--Contact Form-->
+                    <form method="post" action="get" id="contact-form">
+                        <div class="row">
+                            <div class="form-group col-lg-6 col-md-12 col-sm-12">
+                                <input type="text" name="full_name" placeholder="Your name" required>
+                            </div>
+                            <div class="form-group col-lg-6 col-md-12 col-sm-12">
+                                <input type="email" name="Email" placeholder="Email Address" required>
+                            </div>
+                            <div class="form-group col-lg-12">
+                                <textarea name="message" placeholder="Write a message" required></textarea>
+                            </div>
+                            <div class="form-group col-lg-12">
+                                <button class="theme-btn btn-style-one" type="submit" name="submit-form"><span
+                                        class="btn-title">Send a message</span></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <!--End Contact Form -->
+                <figure class="image"><img src="{{asset('frontend/images/resource/girl.webp')}}" alt=""></figure>
+            </div>
+        </div>
+    </section>
+
 
     <!-- Statistics Counter Comment Out --
     <!- Fun Fact Section --
@@ -1047,47 +1014,6 @@
         !--End News Section -->
 
     <!-- Contact Section -->
-    <section class="contact-section">
-        <div class="anim-icons">
-            <span class="icon icon-line3"></span>
-            <span class="icon icon-arrow1"></span>
-            <span class="icon icon-arrow2"></span>
-        </div>
-        <div class="auto-container">
-            <div class="outer-box">
-                <div class="bg bg-pattern-5"></div>
-
-                <div class="sec-title">
-                    <span class="sub-title">Get in touch</span>
-                    <h2>Let’s work together</h2>
-                </div>
-
-                <!-- Contact Form -->
-                <div class="contact-form wow fadeInLeft">
-                    <!--Contact Form-->
-                    <form method="post" action="get" id="contact-form">
-                        <div class="row">
-                            <div class="form-group col-lg-6 col-md-12 col-sm-12">
-                                <input type="text" name="full_name" placeholder="Your name" required>
-                            </div>
-                            <div class="form-group col-lg-6 col-md-12 col-sm-12">
-                                <input type="email" name="Email" placeholder="Email Address" required>
-                            </div>
-                            <div class="form-group col-lg-12">
-                                <textarea name="message" placeholder="Write a message" required></textarea>
-                            </div>
-                            <div class="form-group col-lg-12">
-                                <button class="theme-btn btn-style-one" type="submit" name="submit-form"><span
-                                        class="btn-title">Send a message</span></button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-                <!--End Contact Form -->
-                <figure class="image"><img src="{{asset('frontend/images/resource/girl.webp')}}" alt=""></figure>
-            </div>
-        </div>
-    </section>
     <!-- End Contact Section -->
 
     <!-- Sister Companies Comment Out --
@@ -1177,15 +1103,12 @@
                             <h5 class="widget-title">Explore</h5>
                             <div class="widget-content">
                                 <ul class="user-links two-column">
-                                    <li><a href="#">Meet Our Team</a></li>
-                                    <li><a href="#">About</a></li>
-                                    <li><a href="#">What We Do</a></li>
-                                    <li><a href="#">Support</a></li>
-                                    <li><a href="#">Latest News</a></li>
-                                    <li><a href="#">New Projects</a></li>
-                                    <li><a href="#">Contact</a></li>
-                                    <li><a href="#">Shop</a></li>
-                                    <li><a href="#">Faqs</a></li>
+                                    <li><a href="#slider-header">Home Page</a></li>
+                                    <li><a href="#services-section">Our Services</a></li>
+                                    <li><a href="#about-section">About Us</a></li>
+                                    <li><a href="#why-choose-us">Why Choose Us</a></li>
+                                    <li><a href="#projects-section">Our Projects</a></li>
+                                    <li><a href="#contact-section">Contact Us</a></li>
                                 </ul>
                             </div>
                         </div>
