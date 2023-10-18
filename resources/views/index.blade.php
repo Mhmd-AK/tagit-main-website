@@ -11,7 +11,7 @@
                     <!-- Info List -->
                     <ul class="list-style-one">
                         <li><i class="fa fa-envelope"></i> <a
-                                href="mailto:info@tagit-global.com">info@tagit-global.com</a></li>
+                                href="mailto:{{config('app.emails.info')}}">{{config('app.emails.info')}}</a></li>
                         <li><i class="fa fa-map-marker"></i> Achrafieh, Beirut, Lebanon</li>
                     </ul>
                 </div>
@@ -26,7 +26,7 @@
                         <li><a href="#"><span class="fab fa-twitter"></span></a></li>
                         <li><a href="#"><span class="fab fa-facebook-square"></span></a></li>
                         <li><a href="#"><span class="fab fa-linkedin"></span></a></li>
-                        <li><a href="https://instagram.com/tagit_sa?igshid=MzRlODBiNWFlZA=="><span
+                        <li><a href="{{config('app.links.insta')}}"><span
                                     class="fab fa-instagram"></span></a></li>
                     </ul>
                 </div>
@@ -105,7 +105,7 @@
                         <div class="contact-info-box">
                             <span class="icon lnr-icon-envelope1"></span>
                             <span class="title">Send Email</span>
-                            <a href="mailto:info@tagit-global.com">info@tagit-global.com</a>
+                            <a href="mailto:{{config('app.emails.info')}}">info@tagit-global.com</a>
                         </div>
                     </li>
                     <li>
@@ -464,7 +464,7 @@
     <!-- Call To Action -->
     <section id="call-to-action" class="call-to-action">
         {{-- here --}}
-        <div class="bg bg-image" style="background-image: url(frontend/images/background/1.jpg)"></div>
+        <div class="bg bg-image" style="background-image: url(frontend/images/background/1.webp)"></div>
         <div class="auto-container">
             <div class="outer-box wow fadeIn">
                 <figure class="small-image"><img src="{{asset('frontend/images/resource/img.jpg')}}" alt=""></figure>
@@ -757,7 +757,7 @@
                     <div class="inner-column">
                         <div class="image-box">
                             <figure class="image anim-overlay"><img
-                                    src="{{asset('frontend/images/resource/why-us.jpg')}}" alt=""></figure>
+                                    src="{{asset('frontend/images/resource/why-us.webp')}}" alt=""></figure>
                             <div class="rounded-text">
                                 <img src="{{asset('frontend/images/resource/round-text.webp')}}" alt="">
                                 <span class="letter">D</span>
@@ -784,7 +784,7 @@
                         <div class="inner-box">
                             <div class="image-box">
                                 <figure class="image"><a href="#"><img
-                                            src="{{asset('frontend/images/resource/project-1-test.PNG')}}" alt=""></a>
+                                            src="{{asset('frontend/images/resource/project-1-test.webp')}}" alt=""></a>
                                 </figure>
                             </div>
                             <div class="content-box">
@@ -802,7 +802,7 @@
                         <div class="inner-box">
                             <div class="image-box">
                                 <figure class="image"><a href="#"><img
-                                            src="{{asset('frontend/images/resource/project-3-test.jpg')}}" alt=""></a>
+                                            src="{{asset('frontend/images/resource/project-3-test.webp')}}" alt=""></a>
                                 </figure>
                             </div>
                             <div class="content-box">
@@ -819,7 +819,7 @@
                         <div class="inner-box">
                             <div class="image-box">
                                 <figure class="image"><a href="#"><img
-                                            src="{{asset('frontend/images/resource/project-2-test.JPG')}}" alt=""></a>
+                                            src="{{asset('frontend/images/resource/project-2-test.webp')}}" alt=""></a>
                                 </figure>
                             </div>
                             <div class="content-box">
@@ -837,7 +837,7 @@
                         <div class="inner-box">
                             <div class="image-box">
                                 <figure class="image"><a href="#"><img
-                                            src="{{asset('frontend/images/resource/project-4-test.jpg')}}" alt=""></a>
+                                            src="{{asset('frontend/images/resource/project-4-test.webp')}}" alt=""></a>
                                 </figure>
                             </div>
                             <div class="content-box">
@@ -1058,7 +1058,7 @@
                         <div class="inner">
                             <i class="icon fa fa-envelope"></i>
                             <span class="sub-title">Send Email</span>
-                            <div class="text"><a href="mailto:info@tagit-global.com">info@tagit-global.com</a></div>
+                            <div class="text"><a href="mailto:{{config('app.emails.info')}}">{{config('app.emails.info')}}</a></div>
                         </div>
                     </div>
                     <!-- Contact info Block -->
@@ -1083,8 +1083,8 @@
                             <div class="widget-content">
                                 <div class="logo"><a href="#"> <img src="{{asset('frontend/images/Tagit-logo.png')}}"
                                                                     alt=""></a></div>
-                                <div class="text">Welcome to our digital agency. Lorem ipsum simply free text dolor
-                                    sited amet cons cing elit.
+                                <div class="text">
+                                    Pushing Boundaries, Fueling Creativity, and Leading with 2030 Vision in Marketing. Explore the Future with Us.
                                 </div>
                                 <ul class="social-icon-two">
                                     <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -1142,7 +1142,7 @@
         <!--  Footer Bottom -->
         <div class="footer-bottom">
             <div class="auto-container">
-                <div class="copyright-text">© Copyright 2023 by <a href="#">Tagit-Global.com</a></div>
+                <div class="copyright-text">© Copyright {{today()->year}} by <a href="#">Tagit-Global.com</a></div>
             </div>
         </div>
     </footer>
