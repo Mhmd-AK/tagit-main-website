@@ -784,7 +784,7 @@
                         <div class="inner-box">
                             <div class="image-box">
                                 <figure class="image"><a href="#"><img
-                                            src="{{asset('frontend/images/resource/project-1-test.png')}}" alt=""></a>
+                                            src="{{asset('frontend/images/resource/project-1-test.PNG')}}" alt=""></a>
                                 </figure>
                             </div>
                             <div class="content-box">
