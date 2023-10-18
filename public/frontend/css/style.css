@@ -7253,16 +7253,16 @@ Section Title
 .video-section .sec-title h2 .selected {
   position: relative;
 }
-.video-section .sec-title h2 .selected:before {
-  position: absolute;
-  left: -20px;
-  top: 5px;
-  height: 71px;
-  width: 275px;
-  background-image: url(../images/icons/arrow-circle.png);
-  z-index: -1;
-  content: "";
-}
+/*.video-section .sec-title h2 .selected:before {*/
+/*  position: absolute;*/
+/*  left: -20px;*/
+/*  top: 5px;*/
+/*  height: 71px;*/
+/*  width: 275px;*/
+/*  background-image: url(../images/icons/arrow-circle.png);*/
+/*  z-index: -1;*/
+/*  content: "";*/
+/*}*/
 @media (max-width: 767.98px) {
   .video-section .sec-title h2 .selected:before {
     display: none;

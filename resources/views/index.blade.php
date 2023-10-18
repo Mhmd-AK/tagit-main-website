@@ -278,7 +278,8 @@
                              data-y="['middle','middle','middle','middle']"
                              data-textalign="['top','top','top','top']"
                              data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'>
-                            <h1>Digital <span class="selected">agency</span> <br>for your business</h1>
+{{--                            <h1>Digital <span class="selected">agency</span> <br>for your business</h1>--}}
+                            <h1>Digital <span >agency</span> <br>for your business</h1>
                         </div>
 
                         <!--Discover More Button Commented Out--
@@ -319,8 +320,8 @@
                         <h2>Explore what services <br>we’re offering</h2>
                     </div>
                     <div class="col-lg-5">
-                        <div class="text">There are many variations of passages of available but majority alteration in
-                            some form, by humou or randomised words.
+                        <div class="text">
+                            Expertise Meets Excellence. Elevating Your Brand with Precision Web Development, Strategic Digital Marketing, SEO Mastery, and Engaging Content Crafting – Your Success, Our Priority.
                         </div>
                     </div>
                 </div>
@@ -340,8 +341,8 @@
                         </div>
                         <div class="hover-content">
                             <i class="icon flaticon-web-development"></i>
-                            <h5 class="title"><a href="page-service-details.html">Website <br>Development</a></h5>
-                            <div class="text">There are many variations of passages of available but the majority.</div>
+                            <h5 class="title"><a href="#">Website <br>Development</a></h5>
+                            <div class="text">Expert web development services for stunning websites tailored to your needs.</div>
                         </div>
                     </div>
                 </div>
@@ -359,8 +360,9 @@
                         </div>
                         <div class="hover-content">
                             <i class="icon flaticon-design"></i>
-                            <h5 class="title"><a href="page-service-details.html">Graphic <br>Designing</a></h5>
-                            <div class="text">There are many variations of passages of available but the majority.</div>
+                            <h5 class="title"><a href="#">Graphic <br>Designing</a></h5>
+                            <div class="text">
+                                Professional graphic design services for your business.</div>
                         </div>
                     </div>
                 </div>
@@ -378,8 +380,8 @@
                         </div>
                         <div class="hover-content">
                             <i class="icon flaticon-megaphone"></i>
-                            <h5 class="title"><a href="page-service-details.html">Application <br>Development</a></h5>
-                            <div class="text">There are many variations of passages of available but the majority.</div>
+                            <h5 class="title"><a href="#">Digital <br>marketing</a></h5>
+                            <div class="text">Strategic digital marketing solutions drive growth and visibility for your brand.</div>
                         </div>
                     </div>
                 </div>
@@ -393,12 +395,12 @@
                         </div>
                         <div class="content-box">
                             <i class="icon flaticon-visitor"></i>
-                            <h5 class="title">Mobile <br>applications</h5>
+                            <h5 class="title">SEO & Content <br>Writing</h5>
                         </div>
                         <div class="hover-content">
                             <i class="icon flaticon-visitor"></i>
-                            <h5 class="title"><a href="page-service-details.html">SEO & Content <br>Writing</a></h5>
-                            <div class="text">There are many variations of passages of available but the majority.</div>
+                            <h5 class="title"><a href="#">SEO & Content <br>Writing</a></h5>
+                            <div class="text">SEO and content writing for improved online visibility and engagement.</div>
                         </div>
                     </div>
                 </div>
@@ -417,8 +419,12 @@
                         <div class="sec-title">
                             <span class="sub-title">get to know us</span>
                             <h2>The best digital marketing solutions</h2>
-                            <div class="text">There are many variations of passages of available but the majority have
-                                suffered alteration in some form, by injected hum randomised words which don't slightly.
+                            <div class="text">We are ahead of our times, floating on the
+                                surface of your dreams and making you exceed
+                                your expectation in terms of creativity. Our
+                                marketing tools drive you forward and develop
+                                your approach according to an upscaled
+                                strategy straight from 2030.
                             </div>
                         </div>
 
@@ -426,9 +432,29 @@
                         <div class="info-box">
                             <div class="inner">
                                 <i class="icon flaticon-targeted-marketing"></i>
-                                <h5 class="title">Leading in marketing</h5>
-                                <div class="text">Knowledge of technologies rules better than anyone which we apply in
-                                    our daily work
+                                <h5 class="title">VISION</h5>
+                                <div class="text">
+                                    Elevating Saudi Arabia through cutting-edge advertising, creative marketing, and sophisticated design with innovative digital techniques and rapid execution.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="info-box">
+                            <div class="inner">
+                                <i class="icon flaticon-targeted-marketing"></i>
+                                <h5 class="title">VALUES</h5>
+                                <div class="text">
+                                    Our passion inspires excellence, innovation, and success for projects and entrepreneurs, generating excitement and nurturing ideas.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="info-box">
+                            <div class="inner">
+                                <i class="icon flaticon-targeted-marketing"></i>
+                                <h5 class="title">MISSION</h5>
+                                <div class="text">
+                                    Powering creativity and global impact through memorable Saudi campaigns and innovative solutions with ideas and technology.
                                 </div>
                             </div>
                         </div>
@@ -437,9 +463,9 @@
                         <div class="info-box">
                             <div class="inner">
                                 <i class="icon flaticon-diplomat"></i>
-                                <h5 class="title">Expert developers</h5>
-                                <div class="text">Knowledge of technologies rules better than anyone which we apply in
-                                    our daily work
+                                <h5 class="title">OURGOAL</h5>
+                                <div class="text">
+                                    Uplifting marketing and design standards, fostering partner success, and pioneering new digital techniques for continuous excellence.
                                 </div>
                             </div>
                         </div>
@@ -470,10 +496,10 @@
                     <div class="image-box">
                         <span class="icon-dots bounce-y"></span>
                         <span class="icon-circle zoom-one"></span>
-                        <figure class="image-1 wow fadeIn"><img src="{{asset('frontend/images/resource/about-1.jpg')}}"
+                        <figure class="image-1 wow fadeIn"><img src="{{asset('frontend/images/resource/about-1.webp')}}"
                                                                 alt=""></figure>
                         <figure class="image-2 wow fadeIn" data-wow-delay="600ms"><img
-                                src="{{asset('frontend/images/resource/about-2.jpg')}}" alt=""></figure>
+                                src="{{asset('frontend/images/resource/about-2.webp')}}" alt=""></figure>
                         <div class="exp-box">
                             <div class="inner">
                                 <i class="icon flaticon-promotion"></i>
@@ -519,7 +545,7 @@
                 <figure class="small-image"><img src="{{asset('frontend/images/resource/img.jpg')}}" alt=""></figure>
                 <h2 class="title">Better digital marketing <span class="selected">solution</span> <br>and services at
                     your <br>fingertips</h2>
-                <a href="page-contact.html" class="theme-btn btn-style-one light"><span
+                <a href="#" class="theme-btn btn-style-one light"><span
                         class="btn-title">Contact Us</span></a>
             </div>
         </div>
@@ -527,136 +553,136 @@
     <!--End Call To Action -->
 
     <!-- FAQ Section -->
-    <section class="faqs-section">
-        <div class="auto-container">
-            <div class="sec-title text-center">
-                <span class="sub-title">frequently asked questions</span>
-                <h2>Agency is building a top<br> business sectors</h2>
-            </div>
+{{--    <section class="faqs-section">--}}
+{{--        <div class="auto-container">--}}
+{{--            <div class="sec-title text-center">--}}
+{{--                <span class="sub-title">frequently asked questions</span>--}}
+{{--                <h2>Agency is building a top<br> business sectors</h2>--}}
+{{--            </div>--}}
 
-            <div class="row">
-                <!-- Content Column -->
-                <div class="content-column col-lg-6 col-md-12 col-sm-12">
-                    <div class="inner-column">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6">
-                                <div class="image-box">
-                                    <figure class="image overlay-anim"><img
-                                            src="{{asset('frontend/images/resource/faq.jpg')}}" alt=""></figure>
-                                    <div class="exp-box">
-                                        <span class="count">26</span>
-                                        <h4 class="title">Years <br>Experience</h4>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6">
-                                <!-- Faq Block -->
-                                <div class="faq-block">
-                                    <div class="inner-box">
-                                        <div class="title-box">
-                                            <i class="icon fa fa-long-arrow-alt-right"></i>
-                                            <h6 class="title">High Quality Services</h6>
-                                        </div>
-                                        <div class="text">Lorem ipsum is simply free text dol sit amet, passage of.
-                                        </div>
-                                    </div>
-                                </div>
+{{--            <div class="row">--}}
+{{--                <!-- Content Column -->--}}
+{{--                <div class="content-column col-lg-6 col-md-12 col-sm-12">--}}
+{{--                    <div class="inner-column">--}}
+{{--                        <div class="row">--}}
+{{--                            <div class="col-lg-6 col-md-6">--}}
+{{--                                <div class="image-box">--}}
+{{--                                    <figure class="image overlay-anim"><img--}}
+{{--                                            src="{{asset('frontend/images/resource/faq.jpg')}}" alt=""></figure>--}}
+{{--                                    <div class="exp-box">--}}
+{{--                                        <span class="count">26</span>--}}
+{{--                                        <h4 class="title">Years <br>Experience</h4>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                            <div class="col-lg-6 col-md-6">--}}
+{{--                                <!-- Faq Block -->--}}
+{{--                                <div class="faq-block">--}}
+{{--                                    <div class="inner-box">--}}
+{{--                                        <div class="title-box">--}}
+{{--                                            <i class="icon fa fa-long-arrow-alt-right"></i>--}}
+{{--                                            <h6 class="title">High Quality Services</h6>--}}
+{{--                                        </div>--}}
+{{--                                        <div class="text">Lorem ipsum is simply free text dol sit amet, passage of.--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
 
-                                <!-- Faq Block -->
-                                <div class="faq-block">
-                                    <div class="inner-box">
-                                        <div class="title-box">
-                                            <i class="icon fa fa-long-arrow-alt-right"></i>
-                                            <h6 class="title">Perfect Business Solution</h6>
-                                        </div>
-                                        <div class="text">Lorem ipsum is simply free text dol sit amet, passage of.
-                                        </div>
-                                    </div>
-                                </div>
+{{--                                <!-- Faq Block -->--}}
+{{--                                <div class="faq-block">--}}
+{{--                                    <div class="inner-box">--}}
+{{--                                        <div class="title-box">--}}
+{{--                                            <i class="icon fa fa-long-arrow-alt-right"></i>--}}
+{{--                                            <h6 class="title">Perfect Business Solution</h6>--}}
+{{--                                        </div>--}}
+{{--                                        <div class="text">Lorem ipsum is simply free text dol sit amet, passage of.--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
 
-                                <!-- Faq Block -->
-                                <div class="faq-block">
-                                    <div class="inner-box">
-                                        <div class="title-box">
-                                            <i class="icon fa fa-long-arrow-alt-right"></i>
-                                            <h6 class="title">Commited to Deliver</h6>
-                                        </div>
-                                        <div class="text">Lorem ipsum is simply free text dol sit amet, passage of.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+{{--                                <!-- Faq Block -->--}}
+{{--                                <div class="faq-block">--}}
+{{--                                    <div class="inner-box">--}}
+{{--                                        <div class="title-box">--}}
+{{--                                            <i class="icon fa fa-long-arrow-alt-right"></i>--}}
+{{--                                            <h6 class="title">Commited to Deliver</h6>--}}
+{{--                                        </div>--}}
+{{--                                        <div class="text">Lorem ipsum is simply free text dol sit amet, passage of.--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
 
-                <!-- FAQ Column -->
-                <div class="faq-column col-lg-6 col-md-12 col-sm-12">
-                    <div class="inner-column">
+{{--                <!-- FAQ Column -->--}}
+{{--                <div class="faq-column col-lg-6 col-md-12 col-sm-12">--}}
+{{--                    <div class="inner-column">--}}
 
-                        <ul class="accordion-box wow fadeInRight">
-                            <!--Block-->
-                            <li class="accordion block">
-                                <div class="acc-btn">What does your process look like?
-                                    <div class="icon fa fa-plus"></div>
-                                </div>
-                                <div class="acc-content">
-                                    <div class="content">
-                                        <div class="text">There are many variations of passages the majority have
-                                            suffered alteration in some fo injected humour, or randomised words
-                                            believable.
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <!--Block-->
-                            <li class="accordion block active-block">
-                                <div class="acc-btn active">Learn how we create unmatched solutions
-                                    <div class="icon fa fa-plus"></div>
-                                </div>
-                                <div class="acc-content current">
-                                    <div class="content">
-                                        <div class="text">There are many variations of passages the majority have
-                                            suffered alteration in some fo injected humour, or randomised words
-                                            believable.
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <!--Block-->
-                            <li class="accordion block">
-                                <div class="acc-btn">How long do services take to complete?
-                                    <div class="icon fa fa-plus"></div>
-                                </div>
-                                <div class="acc-content">
-                                    <div class="content">
-                                        <div class="text">There are many variations of passages the majority have
-                                            suffered alteration in some fo injected humour, or randomised words
-                                            believable.
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <!--Block-->
-                            <li class="accordion block">
-                                <div class="acc-btn">How can i find my financial record?
-                                    <div class="icon fa fa-plus"></div>
-                                </div>
-                                <div class="acc-content">
-                                    <div class="content">
-                                        <div class="text">There are many variations of passages the majority have
-                                            suffered alteration in some fo injected humour, or randomised words
-                                            believable.
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+{{--                        <ul class="accordion-box wow fadeInRight">--}}
+{{--                            <!--Block-->--}}
+{{--                            <li class="accordion block">--}}
+{{--                                <div class="acc-btn">What does your process look like?--}}
+{{--                                    <div class="icon fa fa-plus"></div>--}}
+{{--                                </div>--}}
+{{--                                <div class="acc-content">--}}
+{{--                                    <div class="content">--}}
+{{--                                        <div class="text">There are many variations of passages the majority have--}}
+{{--                                            suffered alteration in some fo injected humour, or randomised words--}}
+{{--                                            believable.--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </li>--}}
+{{--                            <!--Block-->--}}
+{{--                            <li class="accordion block active-block">--}}
+{{--                                <div class="acc-btn active">Learn how we create unmatched solutions--}}
+{{--                                    <div class="icon fa fa-plus"></div>--}}
+{{--                                </div>--}}
+{{--                                <div class="acc-content current">--}}
+{{--                                    <div class="content">--}}
+{{--                                        <div class="text">There are many variations of passages the majority have--}}
+{{--                                            suffered alteration in some fo injected humour, or randomised words--}}
+{{--                                            believable.--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </li>--}}
+{{--                            <!--Block-->--}}
+{{--                            <li class="accordion block">--}}
+{{--                                <div class="acc-btn">How long do services take to complete?--}}
+{{--                                    <div class="icon fa fa-plus"></div>--}}
+{{--                                </div>--}}
+{{--                                <div class="acc-content">--}}
+{{--                                    <div class="content">--}}
+{{--                                        <div class="text">There are many variations of passages the majority have--}}
+{{--                                            suffered alteration in some fo injected humour, or randomised words--}}
+{{--                                            believable.--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </li>--}}
+{{--                            <!--Block-->--}}
+{{--                            <li class="accordion block">--}}
+{{--                                <div class="acc-btn">How can i find my financial record?--}}
+{{--                                    <div class="icon fa fa-plus"></div>--}}
+{{--                                </div>--}}
+{{--                                <div class="acc-content">--}}
+{{--                                    <div class="content">--}}
+{{--                                        <div class="text">There are many variations of passages the majority have--}}
+{{--                                            suffered alteration in some fo injected humour, or randomised words--}}
+{{--                                            believable.--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </li>--}}
+{{--                        </ul>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </section>--}}
     <!--End FAQ Section -->
 
     <!-- Testimonial Section --
@@ -766,10 +792,12 @@
                         <div class="sec-title">
                             <i class="sub-title">company benefits</i>
                             <h2>Why should choose our agency?</h2>
-                            <h4 class="other-title">Proin est lacus, sagittis lobortis iaculise get.</h4>
-                            <div class="text">There are many variations of passages of available but the majority have
-                                suffered. Alteration in some form, lipsum is simply free text by injected humou or
-                                randomised words even believable.
+                            <h4 class="other-title">We operate on transparency and you are our priority.
+                                Through the insights we collect, your brand will be uplifted to the top.</h4>
+                            <div class="text">We will use current trends and upscale them
+                                according to your needs! This way your brand
+                                will stand out among competitors and
+                                become a leading name in the market.
                             </div>
                             <span class="icon icon-arrow3"></span>
                         </div>
@@ -827,7 +855,6 @@
 
             <div class="outer-box">
                 <div class="row">
-                    <!-- Project Block -->
                     <div class=" project-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp">
                         <div class="inner-box">
                             <div class="image-box">
@@ -845,25 +872,7 @@
                         </div>
                     </div>
 
-                    <!-- Project Block -->
-                    <div class=" project-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="300ms">
-                        <div class="inner-box">
-                            <div class="image-box">
-                                <figure class="image"><a href="page-project-details.html"><img
-                                            src="{{asset('frontend/images/resource/project-2-test.jpg')}}" alt=""></a>
-                                </figure>
-                            </div>
-                            <div class="content-box">
-                                <a href="page-project-details.html" class="icon"><i
-                                        class="fa fa-long-arrow-alt-right"></i></a>
-                                <span class="cat">Development</span>
-                                <h4 class="title"><a href="page-project-details.html" title="">Marketing webdesign</a>
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
 
-                    <!-- Project Block -->
                     <div class=" project-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="600ms">
                         <div class="inner-box">
                             <div class="image-box">
@@ -881,7 +890,24 @@
                         </div>
                     </div>
 
-                    <!-- Project Block -->
+                    <div class=" project-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="300ms">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <figure class="image"><a href="page-project-details.html"><img
+                                            src="{{asset('frontend/images/resource/project-2-test.jpg')}}" alt=""></a>
+                                </figure>
+                            </div>
+                            <div class="content-box">
+                                <a href="page-project-details.html" class="icon"><i
+                                        class="fa fa-long-arrow-alt-right"></i></a>
+                                <span class="cat">Development</span>
+                                <h4 class="title"><a href="page-project-details.html" title="">Marketing webdesign</a>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    
+
                     <div class=" project-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="900ms">
                         <div class="inner-box">
                             <div class="image-box">
