@@ -430,11 +430,22 @@
                             <div class="other-info">
                                 <div class="author-info">
                                     <div class="inner">
-                                        <figure class="thumb"><img src="{{asset('frontend/images/resource/avatar.jpg')}}" alt=""></figure>
-                                        <h5 class="name">Aleesha brown</h5>
-                                        <span class="designation">CEO & CO Founder</span>
+                                        <figure class="thumb"><img src="{{asset('frontend/images/resource/avatar.jp')}}" alt=""></figure>
+                                        <h5 class="name">Hadeel Al Essa</h5>
+                                        <span class="designation">CEO & CO Founder</span> <br>
+                                        <span class="designation">6 Years of Experience</span>
                                     </div>
                                 </div>
+                                <br>
+                                <div class="author-info">
+                                    <div class="inner">
+                                        <figure class="thumb"><img src="{{asset('frontend/images/resource/avatar.jp')}}" alt=""></figure>
+                                        <h5 class="name">Hadeel Al Essa</h5>
+                                        <span class="designation">CEO & CO Founder</span> <br>
+                                        <span class="designation">6 Years of Experience</span>
+                                    </div>
+                                </div>
+                                
 
                                 <a href="page-about.html" class="theme-btn btn-style-one"><span class="btn-title">Discover more</span></a>
                             </div>
@@ -451,7 +462,7 @@
                             <div class="exp-box">
                                 <div class="inner">
                                     <i class="icon flaticon-promotion"></i>
-                                    <span class="count">38+</span>
+                                    <span class="count">9+</span>
                                     <div class="text">Work Experience</div>
                                 </div>
                             </div>
@@ -492,7 +503,7 @@
                 <div class="outer-box wow fadeIn">
                     <figure class="small-image"><img src="{{asset('frontend/images/resource/img.jpg')}}" alt=""></figure>
                     <h2 class="title">Better digital marketing <span class="selected">solution</span> <br>and services at your <br>fingertips</h2>
-                    <a href="page-contact.html" class="theme-btn btn-style-one light"><span class="btn-title">Discover more</span></a>
+                    <a href="page-contact.html" class="theme-btn btn-style-one light"><span class="btn-title">Contact Us</span></a>
                 </div>
             </div>
         </section>
@@ -783,7 +794,7 @@
                         <div class=" project-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <figure class="image"><a href="page-project-details.html"><img src="{{asset('frontend/images/resource/project-1.jpg')}}" alt=""></a></figure>
+                                    <figure class="image"><a href="page-project-details.html"><img src="{{asset('frontend/images/resource/project-1-test.png')}}" alt=""></a></figure>
                                 </div>
                                 <div class="content-box">
                                     <a href="page-project-details.html" class="icon"><i class="fa fa-long-arrow-alt-right"></i></a>
@@ -797,7 +808,7 @@
                         <div class=" project-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="300ms">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <figure class="image"><a href="page-project-details.html"><img src="{{asset('frontend/images/resource/project-2.jpg')}}" alt=""></a></figure>
+                                    <figure class="image"><a href="page-project-details.html"><img src="{{asset('frontend/images/resource/project-2-test.jpg')}}" alt=""></a></figure>
                                 </div>
                                 <div class="content-box">
                                     <a href="page-project-details.html" class="icon"><i class="fa fa-long-arrow-alt-right"></i></a>
@@ -811,7 +822,7 @@
                         <div class=" project-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="600ms">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <figure class="image"><a href="page-project-details.html"><img src="{{asset('frontend/images/resource/project-3.jpg')}}" alt=""></a></figure>
+                                    <figure class="image"><a href="page-project-details.html"><img src="{{asset('frontend/images/resource/project-3-test.jpg')}}" alt=""></a></figure>
                                 </div>
                                 <div class="content-box">
                                     <a href="page-project-details.html" class="icon"><i class="fa fa-long-arrow-alt-right"></i></a>
@@ -825,7 +836,7 @@
                         <div class=" project-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="900ms">
                             <div class="inner-box">
                                 <div class="image-box">
-                                    <figure class="image"><a href="page-project-details.html"><img src="{{asset('frontend/images/resource/project-4.jpg')}}" alt=""></a></figure>
+                                    <figure class="image"><a href="page-project-details.html"><img src="{{asset('frontend/images/resource/project-4-test.jpg')}}" alt=""></a></figure>
                                 </div>
                                 <div class="content-box">
                                     <a href="page-project-details.html" class="icon"><i class="fa fa-long-arrow-alt-right"></i></a>
