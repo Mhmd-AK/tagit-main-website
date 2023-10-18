@@ -4712,7 +4712,7 @@ Section Title
 }
 .about-section .content-column .author-info {
   position: relative;
-  padding-left: 110px;
+  /*padding-left: 110px;*/
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
