@@ -25,8 +25,8 @@
                         <ul class="social-icon-one">
                             <li><a href="#"><span class="fab fa-twitter"></span></a></li>
                             <li><a href="#"><span class="fab fa-facebook-square"></span></a></li>
-                            <li><a href="#"><span class="fab fa-pinterest-p"></span></a></li>
-                            <li><a href="#"><span class="fab fa-instagram"></span></a></li>
+                            <li><a href="#"><span class="fab fa-linkedin"></span></a></li>
+                            <li><a href="https://instagram.com/tagit_sa?igshid=MzRlODBiNWFlZA=="><span class="fab fa-instagram"></span></a></li>
                         </ul>
                     </div>
                 </div>
@@ -138,7 +138,7 @@
                             <span class="icon lnr lnr-icon-search"></span>
                         </button>
 
-                        <a href="tel:+92(8800)9806" class="info-btn">
+                        <a href="tel:+961 01 614 141" class="info-btn">
                             <i class="icon lnr-icon-phone-handset"></i>
                             <small>Call Anytime</small>
                             +961 01 614 141
@@ -169,7 +169,7 @@
                             <div class="contact-info-box">
                                 <i class="icon lnr-icon-phone-handset"></i>
                                 <span class="title">Call Now</span>
-                                <a href="tel:+92880098670">+961 01 614 141</a>
+                                <a href="tel:+961 01 614 141">+961 01 614 141</a>
                             </div>
                         </li>
                         <li>
@@ -177,7 +177,7 @@
                             <div class="contact-info-box">
                                 <span class="icon lnr-icon-envelope1"></span>
                                 <span class="title">Send Email</span>
-                                <a href="mailto:help@company.com">info@tagit-global.com</a>
+                                <a href="mailto:info@tagit-global.com">info@tagit-global.com</a>
                             </div>
                         </li>
                         <li>
@@ -194,11 +194,12 @@
                     <ul class="social-links">
                         <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                         <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
-                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href="https://instagram.com/tagit_sa?igshid=MzRlODBiNWFlZA=="><i class="fab fa-instagram"></i></a></li>
                     </ul>
                 </nav>
-            </div><!-- End Mobile Menu -->
+            </div>
+            <!-- End Mobile Menu -->
 
             <!-- Header Search -->
             <div class="search-popup">
@@ -254,41 +255,45 @@
                         <li data-index="rs-1" data-transition="zoomout">
                             <!-- MAIN IMAGE -->
                             <img src="{{asset('frontend/images/main-slider/cover photo.webp')}}" alt="" class="rev-slidebg">
+                            <img src="{{asset('frontend/images/main-slider/cover photo.webp')}}" alt="" class="rev-slidebg">
+
 
                             <div class="tp-caption"
-                                 data-paddingbottom="[15,15,15,15]"
-                                 data-paddingleft="[15,15,15,15]"
-                                 data-paddingright="[15,15,15,15]"
-                                 data-paddingtop="[0,0,0,0]"
-                                 data-responsive_offset="on"
-                                 data-type="text" data-height="none"
-                                 data-width="['900','900','750','450']"
-                                 data-whitespace="normal"
-                                 data-hoffset="['0','0','0','0']"
-                                 data-voffset="['5','20','20','0']"
-                                 data-x="['center','center','center','center']"
-                                 data-y="['middle','middle','middle','middle']"
-                                 data-textalign="['top','top','top','top']"
-                                 data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'>
+                                data-paddingbottom="[15,15,15,15]"
+                                data-paddingleft="[15,15,15,15]"
+                                data-paddingright="[15,15,15,15]"
+                                data-paddingtop="[0,0,0,0]"
+                                data-responsive_offset="on"
+                                data-type="text" data-height="none"
+                                data-width="['900','900','750','450']"
+                                data-whitespace="normal"
+                                data-hoffset="['0','0','0','0']"
+                                data-voffset="['5','20','20','0']"
+                                data-x="['center','center','center','center']"
+                                data-y="['middle','middle','middle','middle']"
+                                data-textalign="['top','top','top','top']"
+                                data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'>
                                 <h1>Digital <span class="selected">agency</span> <br>for your business</h1>
                             </div>
 
+                            <!--Discover More Button Commented Out--
                             <div class="tp-caption" data-paddingbottom="[0,0,0,0]"
-                                 data-paddingleft="[15,15,15,15]"
-                                 data-paddingright="[15,15,15,15]"
-                                 data-paddingtop="[0,0,0,0]"
-                                 data-responsive_offset="on"
-                                 data-type="text" data-height="none"
-                                 data-width="['700','750','700','450']"
-                                 data-whitespace="normal"
-                                 data-hoffset="['0','0','0','0']"
-                                 data-voffset="['180','180','180','120']"
-                                 data-x="['center','center','center','center']"
-                                 data-y="['middle','middle','middle','middle']"
-                                 data-textalign="['top','top','top','top']"
-                                 data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'>
+                                data-paddingleft="[15,15,15,15]"
+                                data-paddingright="[15,15,15,15]"
+                                data-paddingtop="[0,0,0,0]"
+                                data-responsive_offset="on"
+                                data-type="text" data-height="none"
+                                data-width="['700','750','700','450']"
+                                data-whitespace="normal"
+                                data-hoffset="['0','0','0','0']"
+                                data-voffset="['180','180','180','120']"
+                                data-x="['center','center','center','center']"
+                                data-y="['middle','middle','middle','middle']"
+                                data-textalign="['top','top','top','top']"
+                                data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'>
                                 <a href="page-about.html" class="theme-btn btn-style-one hover-light"><span class="btn-title">Discover More</span></a>
                             </div>
+                            !---->
                         </li>
                     </ul>
                 </div>
@@ -610,12 +615,12 @@
         </section>
         <!--End FAQ Section -->
 
-        <!-- Testimonial Section -->
+        <!-- Testimonial Section --
         <section class="testimonial-section">
             <div class="bg bg-pattern-7"></div>
             <div class="auto-container">
                 <div class="row">
-                    <!-- Title Column -->
+                    !-- Title Column --
                     <div class="title-column col-lg-6 col-md-12">
                         <div class="inner-column">
                             <div class="sec-title">
@@ -629,11 +634,11 @@
                         </div>
                     </div>
 
-                    <!-- Testimonial Column -->
+                    !-- Testimonial Column --
                     <div class="testimonial-column col-lg-6 col-md-12">
                         <div class="inner-column">
                             <div class="testimonial-carousel owl-carousel default-navs">
-                                <!-- Testimonial Block -->
+                                !-- Testimonial Block --
                                 <div class="testimonial-block">
                                     <div class="inner-box">
                                         <div class="content-box">
@@ -654,7 +659,7 @@
                                     </div>
                                 </div>
 
-                                <!-- Testimonial Block -->
+                                !-- Testimonial Block --
                                 <div class="testimonial-block">
                                     <div class="inner-box">
                                         <div class="content-box">
@@ -675,7 +680,7 @@
                                     </div>
                                 </div>
 
-                                <!-- Testimonial Block -->
+                                !-- Testimonial Block --
                                 <div class="testimonial-block">
                                     <div class="inner-box">
                                         <div class="content-box">
@@ -702,7 +707,7 @@
                 </div>
             </div>
         </section>
-        <!-- End Testimonial Section -->
+        !-- End Testimonial Section -->
 
         <!-- Why Choose Us -->
         <section class="why-choose-us">
@@ -753,7 +758,7 @@
                             <div class="image-box">
                                 <figure class="image anim-overlay"><img src="{{asset('frontend/images/resource/why-us.jpg')}}" alt=""></figure>
                                 <div class="rounded-text">
-                                    <img src="{{asset('frontend/images/resource/round-text.png')}}" alt="">
+                                    <img src="{{asset('frontend/images/resource/round-text.webp')}}" alt="">
                                     <span class="letter">D</span>
                                 </div>
                             </div>
@@ -884,7 +889,7 @@
         !-- End Fun Fact Section -->
         <!-- Statistics Counter Comment Out -->
 
-        <!-- News Section Two -->
+        <!-- News Section Two --
         <section class="news-section">
             <div class="auto-container">
                 <div class="sec-title text-center">
@@ -893,7 +898,7 @@
                 </div>
 
                 <div class="row">
-                    <!-- News Block -->
+                    !-- News Block --
                     <div class="news-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
                         <div class="inner-box">
                             <div class="image-box">
@@ -911,7 +916,7 @@
                         </div>
                     </div>
 
-                    <!-- News Block -->
+                    !-- News Block --
                     <div class="news-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="300ms">
                         <div class="inner-box">
                             <div class="image-box">
@@ -929,7 +934,7 @@
                         </div>
                     </div>
 
-                    <!-- News Block -->
+                    !-- News Block --
                     <div class="news-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
                         <div class="inner-box">
                             <div class="image-box">
@@ -949,7 +954,7 @@
                 </div>
             </div>
         </section>
-        <!--End News Section -->
+        !--End News Section -->
 
         <!-- Contact Section -->
         <section class="contact-section">
@@ -988,7 +993,7 @@
                         </form>
                     </div>
                     <!--End Contact Form -->
-                    <figure class="image"><img src="{{asset('frontend/images/resource/girl.png')}}" alt=""></figure>
+                    <figure class="image"><img src="{{asset('frontend/images/resource/girl.webp')}}" alt=""></figure>
                 </div>
             </div>
         </section>
@@ -1063,9 +1068,9 @@
                                     <div class="text">Welcome to our digital agency. Lorem ipsum simply free text dolor sited amet cons cing elit.</div>
                                     <ul class="social-icon-two">
                                         <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-tiktok"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                                        <li><a href="https://instagram.com/tagit_sa?igshid=MzRlODBiNWFlZA=="><i class="fab fa-instagram"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -1091,7 +1096,8 @@
                             </div>
                         </div>
 
-                        <!-- Footer COlumn -->
+                        <!-- Subscribe Commented Out --
+                        !-- Footer COlumn --
                         <div class="footer-column col-xl-3 col-lg-4 col-md-6 col-sm-12">
                             <div class="widget newsletter-widget">
                                 <h5 class="widget-title">Newsletter</h5>
@@ -1110,6 +1116,7 @@
                                 </div>
                             </div>
                         </div>
+                        !-- Subscribe Commented Out -->
                     </div>
                 </div>
             </div>

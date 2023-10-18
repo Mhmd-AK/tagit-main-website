@@ -633,7 +633,8 @@ button {
 
 img {
   display: inline-block;
-  max-width: 100%;
+  max-width: 436px;
+  max-height: 592px;
   height: auto;
 }
 
@@ -1256,7 +1257,7 @@ Scroll To Top style
 }
 
 .bg-pattern-5 {
-  background-image: url(../images/icons/pattern-5.jpg);
+  background-image: url(../images/icons/pattern-5.webp);
 }
 
 .bg-pattern-6 {
@@ -4809,7 +4810,7 @@ Section Title
   left: -80px;
   top: 90px;
   padding: 40px 40px 60px;
-  background-image: url(../images/icons/shape2.png);
+  background-image: url(../images/icons/shape2.webp);
   height: 170px;
   width: 303px;
 }
@@ -5038,7 +5039,7 @@ Section Title
   height: 614px;
   right: 0;
   top: 140px;
-  background-image: url(../images/icons/shape1.png);
+  background-image: url(../images/icons/shape1.webp);
 }
 .services-section .sec-title {
   margin-bottom: 45px;
@@ -5410,7 +5411,7 @@ Section Title
   top: 12px;
   height: 71px;
   width: 275px;
-  background-image: url(../images/icons/arrow-circle.png);
+  background-image: url(../images/icons/arrow-circle.webp);
   z-index: -1;
   content: "";
 }
