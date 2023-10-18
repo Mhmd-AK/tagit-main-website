@@ -61,14 +61,14 @@
 
                 <div class="outer-box">
                     <!-- Header Search -->
-                    <button class="ui-btn ui-btn search-btn">
-                        <span class="icon lnr lnr-icon-search"></span>
-                    </button>
+{{--                    <button class="ui-btn ui-btn search-btn">--}}
+{{--                        <span class="icon lnr lnr-icon-search"></span>--}}
+{{--                    </button>--}}
 
-                    <a href="tel:+961 01 614 141" class="info-btn">
+                    <a href="tel:{{config('app.phones.main')}}" class="info-btn">
                         <i class="icon lnr-icon-phone-handset"></i>
                         <small>Call Anytime</small>
-                        +961 01 614 141
+                        {{config('app.phones.main')}}
                     </a>
                     <!-- Mobile Nav toggler -->
                     <div class="mobile-nav-toggler"><span class="icon lnr-icon-bars"></span></div>
@@ -97,7 +97,7 @@
                         <div class="contact-info-box">
                             <i class="icon lnr-icon-phone-handset"></i>
                             <span class="title">Call Now</span>
-                            <a href="tel:+961 01 614 141">+961 01 614 141</a>
+                            <a href="tel:{{config('app.phones.main')}}">{{config('app.phones.main')}}</a>
                         </div>
                     </li>
                     <li>
@@ -1050,7 +1050,7 @@
                         <div class="inner">
                             <i class="icon fa fa-phone-square"></i>
                             <span class="sub-title">Call Anytime</span>
-                            <div class="text"><a href="tel:+961 01 614 141">+961 01 614 141</a></div>
+                            <div class="text"><a href="{{config('app.phones.main')}}">{{config('app.phones.main')}}</a></div>
                         </div>
                     </div>
                     <!-- Contact info Block -->
