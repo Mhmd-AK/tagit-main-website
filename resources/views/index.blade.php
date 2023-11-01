@@ -467,7 +467,7 @@
         <div class="bg bg-image" style="background-image: url(frontend/images/background/1.webp)"></div>
         <div class="auto-container">
             <div class="outer-box wow fadeIn">
-                <figure class="small-image"><img src="{{asset('frontend/images/resource/img.jpg')}}" alt=""></figure>
+                <!--<figure class="small-image"><img src="{{asset('frontend/images/resource/img.jp')}}" alt=""></figure>!-->
                 <h2 class="title">Better digital marketing <span class="selected">solution</span> <br>and services at
                     your <br>fingertips</h2>
                 <a href="#contact-section" class="theme-btn btn-style-one light"><span
