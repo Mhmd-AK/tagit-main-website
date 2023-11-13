@@ -6747,7 +6747,7 @@ Section Title
 .why-choose-us .info-outer {
   position: relative;
   margin-right: -470px;
-  border: 10px solid var(--theme-color2);
+  /*border: 10px solid var(--theme-color2);*/
   background-color: #fff;
   padding: 40px 40px 10px;
 }
@@ -6831,7 +6831,9 @@ Section Title
   margin-bottom: 0;
 }
 .why-choose-us .image-column .image-box .image img {
-  width: 100%;
+    width: 100%;
+    border-top: 5px solid var(--theme-color1);
+    border-right: 5px solid var(--theme-color1);
 }
 .why-choose-us .image-column .rounded-text {
   position: absolute;
@@ -6846,7 +6848,7 @@ Section Title
 .why-choose-us .image-column .rounded-text .letter {
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 55%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   line-height: 1em;
