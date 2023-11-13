@@ -2046,7 +2046,7 @@ Scroll To Top style
 .icon-arrow3 {
   width: 45px;
   height: 62px;
-  background-image: url(../images/icons/icon-arrow3.png);
+  background-image: url(../images/icons/icon-yellow-arrow.webp);
 }
 
 .icon-speaker {
@@ -4810,7 +4810,7 @@ Section Title
   left: -80px;
   top: 90px;
   padding: 40px 40px 60px;
-  background-image: url(../images/icons/shape2.webp);
+  background-image: url(../images/icons/shape-2.webp);
   height: 170px;
   width: 303px;
 }

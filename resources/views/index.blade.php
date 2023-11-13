@@ -257,7 +257,7 @@
                 <div class="service-block col-lg-3 col-md-6 coll-md-12 wow fadeInUp">
                     <div class="inner-box">
                         <div class="image-box">
-                            <figure class="image"><img src="{{asset('frontend/images/resource/service-1.webp')}}"
+                            <figure class="image"><img src="{{asset('frontend/images/resource/web-services.webp')}}"
                                                        alt=""></figure>
                         </div>
                         <div class="content-box">
@@ -296,7 +296,7 @@
                 <div class="service-block col-lg-3 col-md-6 coll-md-12 wow fadeInUp">
                     <div class="inner-box">
                         <div class="image-box">
-                            <figure class="image"><img src="{{asset('frontend/images/resource/service-3.webp')}}"
+                            <figure class="image"><img src="{{asset('frontend/images/resource/digital-marketing.webp')}}"
                                                        alt=""></figure>
                         </div>
                         <div class="content-box">
@@ -315,7 +315,7 @@
                 <div class="service-block col-lg-3 col-md-6 coll-md-12 wow fadeInUp">
                     <div class="inner-box">
                         <div class="image-box">
-                            <figure class="image"><img src="{{asset('frontend/images/resource/service-4.webp')}}"
+                            <figure class="image"><img src="{{asset('frontend/images/resource/content.webp')}}"
                                                        alt=""></figure>
                         </div>
                         <div class="content-box">
@@ -464,7 +464,7 @@
     <!-- Call To Action -->
     <section id="call-to-action" class="call-to-action">
         {{-- here --}}
-        <div class="bg bg-image" style="background-image: url(frontend/images/background/1.webp)"></div>
+        <div class="bg bg-image" style="background-image: url(frontend/images/background/bg.webp)"></div>
         <div class="auto-container">
             <div class="outer-box wow fadeIn">
                 <!--<figure class="small-image"><img src="{{asset('frontend/images/resource/img.jp')}}" alt=""></figure>!-->
@@ -757,7 +757,7 @@
                     <div class="inner-column">
                         <div class="image-box">
                             <figure class="image anim-overlay"><img
-                                    src="{{asset('frontend/images/resource/why-us.webp')}}" alt=""></figure>
+                                    src="{{asset('frontend/images/resource/why-us-k.webp')}}" alt=""></figure>
                             <div class="rounded-text">
                                 <img src="{{asset('frontend/images/resource/round-text.webp')}}" alt="">
                                 <span class="letter">D</span>
