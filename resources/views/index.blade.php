@@ -891,7 +891,7 @@
                     </form>
                 </div>
                 <!--End Contact Form -->
-                <figure class="image"><img src="{{asset('frontend/images/resource/girl.webp')}}" alt=""></figure>
+                <figure class="image"><img src="{{asset('frontend/images/resource/girl-1.webp')}}" alt=""></figure>
             </div>
         </div>
     </section>
