@@ -276,7 +276,7 @@
                 <div class="service-block col-lg-3 col-md-6 coll-md-12 wow fadeInUp">
                     <div class="inner-box">
                         <div class="image-box">
-                            <figure class="image"><img src="{{asset('frontend/images/resource/service-2.webp')}}"
+                            <figure class="image"><img src="{{asset('frontend/images/resource/graphic-design.webp')}}"
                                                        alt=""></figure>
                         </div>
                         <div class="content-box">
