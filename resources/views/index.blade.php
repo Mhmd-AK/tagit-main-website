@@ -464,7 +464,7 @@
     <!-- Call To Action -->
     <section id="call-to-action" class="call-to-action">
         {{-- here --}}
-        <div class="bg bg-image" style="background-image: url(frontend/images/background/bg.webp)"></div>
+        <div class="bg bg-image" style="background-image: url(frontend/images/background/bg-1.webp)"></div>
         <div class="auto-container">
             <div class="outer-box wow fadeIn">
                 <!--<figure class="small-image"><img src="{{asset('frontend/images/resource/img.jp')}}" alt=""></figure>!-->
@@ -757,7 +757,7 @@
                     <div class="inner-column">
                         <div class="image-box">
                             <figure class="image anim-overlay"><img
-                                    src="{{asset('frontend/images/resource/why-us-k.webp')}}" alt=""></figure>
+                                    src="{{asset('frontend/images/resource/why-us-1.webp')}}" alt=""></figure>
                             <div class="rounded-text">
                                 <img src="{{asset('frontend/images/resource/round-text.webp')}}" alt="">
                                 <span class="letter">D</span>
