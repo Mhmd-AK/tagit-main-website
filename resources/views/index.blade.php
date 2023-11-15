@@ -59,20 +59,20 @@
                     <!-- Main Menu End-->
                 </div>
 
-                <div class="outer-box">
-                    <!-- Header Search -->
+{{--                <div class="outer-box">--}}
+{{--                    <!-- Header Search -->--}}
 {{--                    <button class="ui-btn ui-btn search-btn">--}}
 {{--                        <span class="icon lnr lnr-icon-search"></span>--}}
 {{--                    </button>--}}
 
-                    <a href="tel:{{config('app.phones.main')}}" class="info-btn">
-                        <i class="icon lnr-icon-phone-handset"></i>
-                        <small>Call Anytime</small>
-                        {{config('app.phones.main')}}
-                    </a>
-                    <!-- Mobile Nav toggler -->
-                    <div class="mobile-nav-toggler"><span class="icon lnr-icon-bars"></span></div>
-                </div>
+{{--                    <a href="tel:{{config('app.phones.main')}}" class="info-btn">--}}
+{{--                        <i class="icon lnr-icon-phone-handset"></i>--}}
+{{--                        <small>Call Anytime</small>--}}
+{{--                        {{config('app.phones.main')}}--}}
+{{--                    </a>--}}
+{{--                    <!-- Mobile Nav toggler -->--}}
+{{--                    <div class="mobile-nav-toggler"><span class="icon lnr-icon-bars"></span></div>--}}
+{{--                </div>--}}
             </div>
         </div>
 
@@ -97,7 +97,12 @@
                         <div class="contact-info-box">
                             <i class="icon lnr-icon-phone-handset"></i>
                             <span class="title">Call Now</span>
-                            <a href="tel:{{config('app.phones.main')}}">{{config('app.phones.main')}}</a>
+                            <a href="tel:{{config('app.phones.lebanon')}}">{{config('app.phones.lebanon')}}</a>
+                        </div>
+                        <div class="contact-info-box">
+                            <i class="icon lnr-icon-phone-handset"></i>
+                            <span class="title">Call Now</span>
+                            <a href="tel:{{config('app.phones.saudi')}}">{{config('app.phones.saudi')}}</a>
                         </div>
                     </li>
                     <li>
@@ -891,7 +896,7 @@
                     </form>
                 </div>
                 <!--End Contact Form -->
-                <figure class="image"><img src="{{asset('frontend/images/resource/girl-1.webp')}}" alt=""></figure>
+{{--                <figure class="image"><img src="{{asset('frontend/images/resource/girl-1.webp')}}" alt=""></figure>--}}
             </div>
         </div>
     </section>
@@ -1050,8 +1055,10 @@
                         <div class="inner">
                             <i class="icon fa fa-phone-square"></i>
                             <span class="sub-title">Call Anytime</span>
-                            <div class="text"><a href="{{config('app.phones.main')}}">{{config('app.phones.main')}}</a></div>
+                            <div class="text"><a href="{{config('app.phones.lebanon')}}">{{config('app.phones.lebanon')}}</a></div>
+                            <div class="text"><a href="{{config('app.phones.saudi')}}">{{config('app.phones.saudi')}}</a></div>
                         </div>
+
                     </div>
                     <!-- Contact info Block -->
                     <div class="contact-info-block col-lg-4 col-md-6">
@@ -1065,8 +1072,9 @@
                     <div class="contact-info-block col-lg-4 col-md-6">
                         <div class="inner">
                             <i class="icon fa fa-map-marker"></i>
-                            <span class="sub-title">Address</span>
+                            <span class="sub-title">Addresses</span>
                             <div class="text">Achrafieh, Beirut, Lebanon</div>
+                            <div class="text">Olaya, Riyadh, Saudi Arabia</div>
                         </div>
                     </div>
                 </div>

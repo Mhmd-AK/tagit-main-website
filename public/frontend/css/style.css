@@ -850,6 +850,8 @@ Scroll To Top style
   font-weight: 400;
   color: #FFFFFF;
   margin-right: 20px;
+    font-weight: bold;
+
 }
 .list-style-one li i {
   position: relative;
@@ -864,6 +866,8 @@ Scroll To Top style
   color: #FFFFFF;
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
+    font-weight: bold;
+
 }
 .list-style-one li a:hover {
   color: var(--theme-color-light);
@@ -6529,7 +6533,7 @@ Section Title
 .contact-section .outer-box .contact-form {
   padding: 60px 60px;
   background-color: #fff;
-  max-width: 760px;
+  max-width: 100%;
   z-index: 2;
 }
 @media (max-width: 1199.98px) {
