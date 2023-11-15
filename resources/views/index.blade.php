@@ -8,12 +8,13 @@
             <div class="inner-container">
 
                 <div class="top-left">
-                    <!-- Info List -->
+                    <!-- Info List --
                     <ul class="list-style-one">
                         <li><i class="fa fa-envelope"></i> <a
                                 href="mailto:{{config('app.emails.info')}}">{{config('app.emails.info')}}</a></li>
                         <li><i class="fa fa-map-marker"></i> Achrafieh, Beirut, Lebanon</li>
                     </ul>
+                    !---->
                 </div>
 
                 <div class="top-right">
@@ -1055,8 +1056,8 @@
                         <div class="inner">
                             <i class="icon fa fa-phone-square"></i>
                             <span class="sub-title">Call Anytime</span>
-                            <div class="text"><a href="{{config('app.phones.lebanon')}}">{{config('app.phones.lebanon')}}</a></div>
                             <div class="text"><a href="{{config('app.phones.saudi')}}">{{config('app.phones.saudi')}}</a></div>
+                            <div class="text"><a href="{{config('app.phones.lebanon')}}">{{config('app.phones.lebanon')}}</a></div>
                         </div>
 
                     </div>
@@ -1073,8 +1074,8 @@
                         <div class="inner">
                             <i class="icon fa fa-map-marker"></i>
                             <span class="sub-title">Addresses</span>
-                            <div class="text">Achrafieh, Beirut, Lebanon</div>
                             <div class="text">Olaya, Riyadh, Saudi Arabia</div>
+                            <div class="text">Achrafieh, Beirut, Lebanon</div>
                         </div>
                     </div>
                 </div>
