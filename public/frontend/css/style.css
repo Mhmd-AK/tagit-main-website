@@ -3594,6 +3594,15 @@ Section Title
   z-index: 3;
   padding: 30px 0 0;
 }
+
+.main-slider h5 {
+    font-size: 30px;
+    color: #ffffff;
+    letter-spacing: -0.04em;
+    z-index: 3;
+    padding: 30px 0 0;
+}
+
 .main-slider h1 .selected {
   position: relative;
 }
@@ -3648,6 +3657,9 @@ Section Title
 @media only screen and (max-width: 424px) {
   .main-slider h1 {
     font-size: 36px;
+  }
+    .main-slider h5 {
+    font-size: 18px;
   }
 }
 @media (max-width: 575.98px) {

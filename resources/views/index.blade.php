@@ -210,7 +210,8 @@
                              data-textalign="['top','top','top','top']"
                              data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'>
 {{--                            <h1>Digital <span class="selected">agency</span> <br>for your business</h1>--}}
-                            <h1>Digital <span >agency</span> <br>for your business</h1>
+                            <h1 style="">We are currently revamping our website to serve you better!</h1>
+                            <h5 style="font-size:30px; color:#ffffff; letter-spacing: -0.04em; z-index: 3; padding:30px 0 0"> Stay tuned for our relaunch, and in the meantime, feel free to <a href="#contact-section" style=""> <span style="color: #e2710c"> reach out to us </span></a>  for any inquiries.</h5>
                         </div>
 
                         <!--Discover More Button Commented Out--
